@@ -6,7 +6,7 @@ const headConfig = require('../config/headConfig.js');
 module.exports = {
     title: "胡剑锋",
     description: '勿忘初心,方得始终! Welcome to Hu Jianfeng\'s blog',
-    base: '/blog-demo/',
+    base: '/my-blog/',
     locales: {
         '/': {
             lang: 'zh-CN', // 设置语言
@@ -14,7 +14,7 @@ module.exports = {
     },
     // author
     author: '秦昊joyc',
-    theme: 'vuepress-theme-reco',
+    theme: 'reco',
     head: headConfig,
     themeConfig: {
         type: 'blog',
@@ -43,7 +43,7 @@ module.exports = {
 
         sidebarDepth: 3, // 侧边栏显示3级
         lastUpdated: '上次更新',
-        repo: 'zkkysqs/blog',
+        repo: 'https://github.com/qinhao305292690',
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'docs',
         // 默认是 false, 设置为 true 来启用
