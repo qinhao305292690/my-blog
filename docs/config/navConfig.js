@@ -8,17 +8,17 @@ module.exports = [
       {
         text: '基础',
         items: [
-          {text: 'CSS', link: '/frontEnd/css/'},
-          {text: 'JS', link: '/frontEnd/javascript/'},
+          {text: 'CSS', link: '/tag/CSS/'},
+          {text: 'JS', link: '/tag/JS/'},
         ]
       },
 
       {
         text: '框架',
         items: [
-          {text: 'vue', link: '/frontEnd/VAR/vue/'},
-          {text: 'angular', link: '/frontEnd/VAR/angular/'},
-          {text: 'react', link: '/frontEnd/VAR/react/'}
+          {text: 'vue', link: '/tag/vue/'},
+          {text: 'angular', link: '/tag/vue/'},
+          {text: 'react', link: '/tag/vue/'}
         ]
       },
     ]

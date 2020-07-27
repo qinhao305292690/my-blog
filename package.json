@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vuepress dev docs",
         "build": "vuepress build docs",
-        "deploy": "deploy"
+        "deploy": "deploy.sh"
     },
     "keywords": [],
     "author": "秦昊joyc",
@@ -20,5 +20,8 @@
         "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",
         "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
         "vuepress-plugin-flowchart": "^1.4.3"
+    },
+    "dependencies": {
+        "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5"
     }
 }

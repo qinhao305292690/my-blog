@@ -1,4 +1,5 @@
 // const secretKeyConfig = require('../config/secretKeyConfig.js');
+console.log(process,'process');
 module.exports = {
     // Service Worker 的配置
     '@vuepress/pwa': {
@@ -21,6 +22,18 @@ module.exports = {
             margin: 16
         },
     },
+    // 机器人
+    '@vuepress-reco/vuepress-plugin-kan-ban-niang': {
+        message: {
+            welcome: '欢迎来到你的 ',
+            home: '快快带我回家。',
+            theme: '好吧，希望你能喜欢我的其他小伙伴。',
+            // close: '不要关掉人家啦!',
+            info: "https://github.com/qinhao305292690",
+        },
+        close: '不要关掉人家啦!',
+        theme: ['z16','blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku',]
+    },
     // 播放器
     '@vuepress-reco/vuepress-plugin-bgm-player': {
         audios: [
@@ -28,8 +41,8 @@ module.exports = {
             {
                 name: 'austin',
                 artist: 'send\'it',
-                url: '/music/austin/Austin.mp3',
-                cover: '/music/austin/ladygaga.jpg'
+                url: '/my-blog/music/austin/Austin.mp3',
+                cover: '/my-blog/music/austin/ladygaga.jpg'
             },
             // 网络文件示例
             // {
