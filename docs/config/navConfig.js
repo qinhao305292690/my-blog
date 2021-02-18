@@ -17,8 +17,7 @@ module.exports = [
         text: '框架',
         items: [
           {text: 'vue', link: '/tag/vue/'},
-          {text: 'angular', link: '/tag/vue/'},
-          {text: 'react', link: '/tag/vue/'}
+          // {text: 'react', link: '/tag/vue/'}
         ]
       },
     ]

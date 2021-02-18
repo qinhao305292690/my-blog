@@ -1,5 +1,4 @@
 // const secretKeyConfig = require('../config/secretKeyConfig.js');
-console.log(process,'process');
 module.exports = {
     // Service Worker 的配置
     '@vuepress/pwa': {
@@ -55,9 +54,14 @@ module.exports = {
     },
     // 流程图
     'flowchart': true,
+    'cursor-effects': {
+        size: 2, // size of the particle, default: 2
+        shape: ['circle'], // shape of the particle, default: 'star'|circle
+        zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    },
     'ribbon': {
         size: 90, // 彩带的宽度，默认为 90
         opacity: 0.3, // 彩带的不透明度，默认为 0.3
-        zIndex: -1 // 彩带的 z-index 属性，默认为 -1
+        zIndex: -2 // 彩带的 z-index 属性，默认为 -1
     }
 };
