@@ -38,6 +38,12 @@ module.exports = {
         audios: [
             // 本地文件示例
             {
+                name: '错位时空',
+                artist: 'cwsk',
+                url: '/my-blog/music/cwsk/错位时空.mp3',
+                cover: '/my-blog/music/cwsk/艾辰.jpg'
+            },
+            {
                 name: 'austin',
                 artist: 'send\'it',
                 url: '/my-blog/music/austin/Austin.mp3',

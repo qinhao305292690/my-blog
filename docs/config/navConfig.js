@@ -12,12 +12,17 @@ module.exports = [
           {text: 'JS', link: '/tag/JS/'},
         ]
       },
-
       {
         text: '框架',
         items: [
           {text: 'vue', link: '/tag/vue/'},
-          // {text: 'react', link: '/tag/vue/'}
+          {text: 'react', link: '/tag/react/'}
+        ]
+      },
+      {
+        text: 'HTTP',
+        items: [
+          {text: '前端缓存策略', link: '/tag/http/'}
         ]
       },
     ]
