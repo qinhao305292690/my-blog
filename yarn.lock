@@ -7961,9 +7961,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 underscore@^1.8.3:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
-  integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.1.tgz#0c1c6bd2df54b6b69f2314066d65b6cde6fcf9d1"
+  integrity sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -8342,6 +8342,11 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
+vuepress-plugin-cursor-effects@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-1.0.2.tgz#88154c5f049139dec7c26fa75e45cea115d90300"
+  integrity sha512-rFV47jvF7vL5tCFt9Whri85Z+Kr95ayV6JtPefWyP4dsSoUiMaxR5HSw8EY+Nb07EdjygQce3u0olTsoOciEFw==
+
 vuepress-plugin-disqus@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-disqus/-/vuepress-plugin-disqus-0.2.0.tgz#0a5bde424f81e0185eda36fba23d7ac4cae6ff07"
@@ -8376,6 +8381,11 @@ vuepress-plugin-mailchimp@^1.4.1:
   dependencies:
     jsonp "^0.2.1"
     query-string "^6.9.0"
+
+vuepress-plugin-ribbon@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.4.tgz#5a35311f76ebde1c01f0113ed24ccd5f46432bae"
+  integrity sha512-U5kqQo66/zpTwosiN/QaMYOmQ25Dk5xbGH2cjXrM62DbyXyEtM/VhZ1n+zkP+huRpcABaMghiPhlw3YjHR9CfA==
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
