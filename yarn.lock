@@ -6486,9 +6486,9 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.32"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.32.tgz#4310d6ee347053da3433db2be492883d62cec59d"
-  integrity sha512-03eXong5NLnNCD05xscnGKGDZ98CyzoqPSMjOe6SuoQY7Z2hIj0Ld1g/O/UQRuOle2aRtiIRDg9tDcTGAkLfKw==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -8342,6 +8342,11 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     markdown-it-container "^2.0.0"
 
+vuepress-plugin-cursor-effects@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-1.0.2.tgz#88154c5f049139dec7c26fa75e45cea115d90300"
+  integrity sha512-rFV47jvF7vL5tCFt9Whri85Z+Kr95ayV6JtPefWyP4dsSoUiMaxR5HSw8EY+Nb07EdjygQce3u0olTsoOciEFw==
+
 vuepress-plugin-disqus@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-disqus/-/vuepress-plugin-disqus-0.2.0.tgz#0a5bde424f81e0185eda36fba23d7ac4cae6ff07"
@@ -8376,6 +8381,11 @@ vuepress-plugin-mailchimp@^1.4.1:
   dependencies:
     jsonp "^0.2.1"
     query-string "^6.9.0"
+
+vuepress-plugin-ribbon@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-ribbon/-/vuepress-plugin-ribbon-1.0.4.tgz#5a35311f76ebde1c01f0113ed24ccd5f46432bae"
+  integrity sha512-U5kqQo66/zpTwosiN/QaMYOmQ25Dk5xbGH2cjXrM62DbyXyEtM/VhZ1n+zkP+huRpcABaMghiPhlw3YjHR9CfA==
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
