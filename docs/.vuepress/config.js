@@ -4,7 +4,7 @@ const sidebarConfig = require('../config/sideBarConfig/index.js');
 const headConfig = require('../config/headConfig.js');
 // const secretKeyConfig = require('../config/secretKeyConfig.js');
 module.exports = {
-  title: "胡剑锋",
+  title: "秦昊joyc",
   description: '勿忘初心,方得始终! Welcome to Hu Jianfeng\'s blog',
   base: '/my-blog/',
   locales: {

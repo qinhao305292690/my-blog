@@ -20,7 +20,7 @@ module.exports = [
         ]
       },
       {
-        text: 'HTTP',
+        text: 'HTTP缓存',
         items: [
           {text: '前端缓存策略', link: '/tag/http/'}
         ]
