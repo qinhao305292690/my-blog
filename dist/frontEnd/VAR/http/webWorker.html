@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>webWorker</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.34d67128.css" as="style"><link rel="preload" href="/assets/js/app.269c0242.js" as="script"><link rel="preload" href="/assets/js/2.b3303c0a.js" as="script"><link rel="preload" href="/assets/js/42.5f4d7601.js" as="script"><link rel="prefetch" href="/assets/js/10.9551f909.js"><link rel="prefetch" href="/assets/js/11.9b9e5937.js"><link rel="prefetch" href="/assets/js/12.db1a0cbe.js"><link rel="prefetch" href="/assets/js/13.247701ca.js"><link rel="prefetch" href="/assets/js/14.a9daeff0.js"><link rel="prefetch" href="/assets/js/15.f0522486.js"><link rel="prefetch" href="/assets/js/16.079f82da.js"><link rel="prefetch" href="/assets/js/17.d12e8a36.js"><link rel="prefetch" href="/assets/js/18.58272faa.js"><link rel="prefetch" href="/assets/js/19.219431c0.js"><link rel="prefetch" href="/assets/js/20.950c0bcb.js"><link rel="prefetch" href="/assets/js/21.b49ea422.js"><link rel="prefetch" href="/assets/js/22.28461d33.js"><link rel="prefetch" href="/assets/js/23.5eb75418.js"><link rel="prefetch" href="/assets/js/24.9ed9bb2d.js"><link rel="prefetch" href="/assets/js/25.e4baccc1.js"><link rel="prefetch" href="/assets/js/26.ba0c6f54.js"><link rel="prefetch" href="/assets/js/27.0b78fa78.js"><link rel="prefetch" href="/assets/js/28.46b339cb.js"><link rel="prefetch" href="/assets/js/29.24f804b2.js"><link rel="prefetch" href="/assets/js/3.0580c567.js"><link rel="prefetch" href="/assets/js/30.4518c0e9.js"><link rel="prefetch" href="/assets/js/31.a91e6cb8.js"><link rel="prefetch" href="/assets/js/32.537ab155.js"><link rel="prefetch" href="/assets/js/33.f3db2748.js"><link rel="prefetch" href="/assets/js/34.18afc3f7.js"><link rel="prefetch" href="/assets/js/35.0aa5b2c7.js"><link rel="prefetch" href="/assets/js/36.c573641d.js"><link rel="prefetch" href="/assets/js/37.97f89171.js"><link rel="prefetch" href="/assets/js/38.80529342.js"><link rel="prefetch" href="/assets/js/39.e1e52e00.js"><link rel="prefetch" href="/assets/js/4.22ace04f.js"><link rel="prefetch" href="/assets/js/40.e2ed85a1.js"><link rel="prefetch" href="/assets/js/41.a03d532b.js"><link rel="prefetch" href="/assets/js/43.5caea9dd.js"><link rel="prefetch" href="/assets/js/44.890a8e09.js"><link rel="prefetch" href="/assets/js/45.e412252e.js"><link rel="prefetch" href="/assets/js/46.1d2592ea.js"><link rel="prefetch" href="/assets/js/47.71842b32.js"><link rel="prefetch" href="/assets/js/48.9ba46774.js"><link rel="prefetch" href="/assets/js/49.23e5abe7.js"><link rel="prefetch" href="/assets/js/5.6fca250f.js"><link rel="prefetch" href="/assets/js/50.c236b214.js"><link rel="prefetch" href="/assets/js/51.02234012.js"><link rel="prefetch" href="/assets/js/52.90a577bb.js"><link rel="prefetch" href="/assets/js/53.b8a05ab0.js"><link rel="prefetch" href="/assets/js/54.8ae1c14a.js"><link rel="prefetch" href="/assets/js/55.bfb13b97.js"><link rel="prefetch" href="/assets/js/56.fb04c1f8.js"><link rel="prefetch" href="/assets/js/57.0426c9db.js"><link rel="prefetch" href="/assets/js/58.57ca5a7c.js"><link rel="prefetch" href="/assets/js/59.6d0d6e28.js"><link rel="prefetch" href="/assets/js/6.41029863.js"><link rel="prefetch" href="/assets/js/60.568a60c9.js"><link rel="prefetch" href="/assets/js/61.c7528b24.js"><link rel="prefetch" href="/assets/js/62.4422c3f4.js"><link rel="prefetch" href="/assets/js/63.274686af.js"><link rel="prefetch" href="/assets/js/64.0ca9ea89.js"><link rel="prefetch" href="/assets/js/65.e7b757a0.js"><link rel="prefetch" href="/assets/js/66.03da0383.js"><link rel="prefetch" href="/assets/js/67.1d397d2f.js"><link rel="prefetch" href="/assets/js/68.79091aeb.js"><link rel="prefetch" href="/assets/js/69.4a09cae5.js"><link rel="prefetch" href="/assets/js/7.49b572ac.js"><link rel="prefetch" href="/assets/js/70.58a9ce18.js"><link rel="prefetch" href="/assets/js/71.f1f43dcb.js"><link rel="prefetch" href="/assets/js/72.8f359e1a.js"><link rel="prefetch" href="/assets/js/73.9f32edaf.js"><link rel="prefetch" href="/assets/js/74.34ab7ec3.js"><link rel="prefetch" href="/assets/js/75.4f0ec4fc.js"><link rel="prefetch" href="/assets/js/76.b44740db.js"><link rel="prefetch" href="/assets/js/77.9fb05ad7.js"><link rel="prefetch" href="/assets/js/78.959c29d0.js"><link rel="prefetch" href="/assets/js/79.af5a8dd1.js"><link rel="prefetch" href="/assets/js/8.45778cc9.js"><link rel="prefetch" href="/assets/js/80.28e02b2c.js"><link rel="prefetch" href="/assets/js/81.2f77bacc.js"><link rel="prefetch" href="/assets/js/82.ae55b51f.js"><link rel="prefetch" href="/assets/js/83.7f388dc3.js"><link rel="prefetch" href="/assets/js/84.bad4bf49.js"><link rel="prefetch" href="/assets/js/9.962dd750.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.34d67128.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><p>🤣 前端浏览器缓存知识</p> <h2 id="前言"><a href="#前言" class="header-anchor">#</a> 前言</h2> <h2 id="web-worker-概念与用法"><a href="#web-worker-概念与用法" class="header-anchor">#</a> Web Worker 概念与用法</h2> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Worker 是一个使用构造函数创建的对象（例如 Worker()），它运行一个具名 JavaScript 文件——该文件包含将在 worker 线程中运行的代码。</p></div> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>除了标准的 JavaScript 函数集（如 String、Array、Object、JSON 等），你可以在 worker 线程中运行任何你喜欢的代码，有一些例外：你不能直接在 worker 线程中操作 DOM 元素，或使用 window 对象中的某些方法和属性。有关你可以运行的代码的信息，请参见下面的 Worker 全局上下文和函数和支持的 Web API 。</p></div> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>数据通过消息系统在 worker 和主线程之间发送——双方都使用 postMessage() 方法发送消息，并通过 onmessage 事件处理程序响应消息（消息包含在 message 事件的 data 属性中）。数据是复制的，而不是共享的。</p></div> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>worker 可以依次生成新的 worker，只要这些 worker 与父页面托管在同一个 origin 中。此外，worker 可以通过 XMLHttpRequest 来访问网络，但 XMLHttpRequest 的 responseXML 和 channel 属性始终返回 null</p></div> <h2 id="支持的-web-api"><a href="#支持的-web-api" class="header-anchor">#</a> 支持的 Web API</h2> <p>以下 Web API 对 worker 是可用的：</p> <p>Barcode Detection API (en-US)
+Broadcast Channel API
+Cache API
+Channel Messaging API
+Console API
+Web Crypto API（例如 Crypto）
+CSS Font Loading API
+CustomEvent
+Encoding API（例如 TextEncoder、TextDecoder）
+Fetch API
+FileReader
+FileReaderSync（仅在 worker 中有效！）
+FormData
+ImageBitmap
+ImageData
+IndexedDB
+Media Source Extensions API（仅限专用 worker）
+Network Information API
+Notifications API
+OffscreenCanvas（和所有的 canvas context API）
+Performance API，包括：
+Performance
+PerformanceEntry
+PerformanceMeasure (en-US)
+PerformanceMark (en-US)
+PerformanceObserver
+PerformanceResourceTiming
+Server-sent 事件
+ServiceWorkerRegistration (en-US)
+URL API（例如 URL）
+WebCodecs_API
+WebSocket
+XMLHttpRequest
+worker 也可以派生其他 worker，所以这些 API 也是可用的：</p> <p>Worker</p> <p>WorkerGlobalScope (en-US)</p> <p>WorkerLocation (en-US)</p> <p>WorkerNavigator (en-US)</p> <h2 id="webworker代码示例"><a href="#webworker代码示例" class="header-anchor">#</a> webWorker代码示例:</h2> <h4 id="下面的代码通过构造函数-worker-创建了一个-worker-对象。"><a href="#下面的代码通过构造函数-worker-创建了一个-worker-对象。" class="header-anchor">#</a> 下面的代码通过构造函数 Worker() 创建了一个 Worker 对象。</h4> <blockquote><p>前端代码</p></blockquote> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>  
+ 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Web Worker Example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>output<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>  
+ 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">  
+ <span class="token keyword">var</span> worker <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Worker</span><span class="token punctuation">(</span><span class="token string">'worker.js'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+ worker<span class="token punctuation">.</span><span class="token function">postMessage</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+ worker<span class="token punctuation">.</span><span class="token function-variable function">onmessage</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+   document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'output'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> event<span class="token punctuation">.</span>data<span class="token punctuation">;</span>  
+ <span class="token punctuation">}</span><span class="token punctuation">;</span>  
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>  
+ 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><blockquote><p>worker.js</p></blockquote> <div class="language-javascript extra-class"><pre class="language-javascript"><code>   <span class="token comment">// worker.js  </span>
+     
+   self<span class="token punctuation">.</span><span class="token function">postMessage</span><span class="token punctuation">(</span><span class="token string">'Hello from Worker!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  
+     
+   self<span class="token punctuation">.</span><span class="token function-variable function">onmessage</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  
+     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Message received from main script:'</span><span class="token punctuation">,</span> event<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+     <span class="token keyword">var</span> response <span class="token operator">=</span> event<span class="token punctuation">.</span>data <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">;</span>  
+     self<span class="token punctuation">.</span><span class="token function">postMessage</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>  
+   <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><blockquote><p>在这个例子中，我们创建了一个新的 Worker 对象，并向它发送了一个数字 5。当 worker 完成处理后，它会将结果发送回主线程。我们在主线程中使用 onmessage 事件监听器来接收这个结果，并将其显示在页面上。</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.269c0242.js" defer></script><script src="/assets/js/2.b3303c0a.js" defer></script><script src="/assets/js/42.5f4d7601.js" defer></script>
+  </body>
+</html>
